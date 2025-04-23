@@ -1,0 +1,54 @@
+public class Main {
+    public static void main(String[] args) {
+        Parent1 p1 = new Parent1(1, "Name1");
+        Parent1 copy1 = new Parent1(p1);
+        System.out.println("Original: " + p1);
+        System.out.println("Copy: " + copy1);
+        Parent2 p2 = new Parent2(2, "Name2");
+        Parent2 copy2 = new Parent2(p2);
+        System.out.println("Original: " + p2);
+        System.out.println("Copy: " + copy2);
+        Parent3 p3 = new Parent3(3, "Name3");
+        Parent3 copy3 = new Parent3(p3);
+        System.out.println("Original: " + p3);
+        System.out.println("Copy: " + copy3);
+        Parent4 p4 = new Parent4(4, "Name4");
+        Parent4 copy4 = new Parent4(p4);
+        System.out.println("Original: " + p4);
+        System.out.println("Copy: " + copy4);
+        Parent5 p5 = new Parent5(5, "Name5");
+        Parent5 copy5 = new Parent5(p5);
+        System.out.println("Original: " + p5);
+        System.out.println("Copy: " + copy5);
+        Parent51 p51 = new Parent51();
+        p51.setId(51);
+        p51.setName("Name51");
+        Parent51 copy51 = new Parent51(p51);
+        System.out.println("Original: " + p51);
+        System.out.println("Copy: " + copy51);
+        Parent52 p52 = new Parent52();
+        p52.setId(52);
+        p52.setName("Name52");
+        Parent52 copy52 = new Parent52(p52);
+        System.out.println("Original: " + p52);
+        System.out.println("Copy: " + copy52);
+        Parent53 p53 = new Parent53();
+        p53.setId(53);
+        p53.setName("Name53");
+        Parent53 copy53 = new Parent53(p53);
+        System.out.println("Original: " + p53);
+        System.out.println("Copy: " + copy53);
+        Parent54 p54 = new Parent54();
+        p54.setId(54);
+        p54.setName("Name54");
+        Parent54 copy54 = new Parent54(p54);
+        System.out.println("Original: " + p54);
+        System.out.println("Copy: " + copy54);
+        Parent55 p55 = new Parent55();
+        p55.setId(55);
+        p55.setName("Name55");
+        Parent55 copy55 = new Parent55(p55);
+        System.out.println("Original: " + p55);
+        System.out.println("Copy: " + copy55);
+    }
+}
