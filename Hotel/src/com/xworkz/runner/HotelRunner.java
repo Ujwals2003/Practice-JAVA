@@ -10,7 +10,8 @@ public class HotelRunner {
         if(availableRooms >= requestedRooms) {
             System.out.println("Rooms are available for booking");
         } else {
-            throw new HotelException("No rooms available for booking");
+            throw new
+                    HotelException("No rooms available for booking");
         }
     }
 }
